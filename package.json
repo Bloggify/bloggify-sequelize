@@ -30,10 +30,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/IonicaBizau/bloggify-sequelize.git"
+    "url": "git+ssh://git@github.com/Bloggify/bloggify-sequelize.git"
   },
   "bugs": {
-    "url": "https://github.com/IonicaBizau/bloggify-sequelize/issues"
+    "url": "https://github.com/Bloggify/bloggify-sequelize/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/bloggify-sequelize#readme"
+  "homepage": "https://github.com/Bloggify/bloggify-sequelize#readme",
+  "dependencies": {
+    "camelo": "^1.1.7",
+    "sequelize": "^3.30.4"
+  }
 }
