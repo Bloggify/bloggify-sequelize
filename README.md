@@ -46,6 +46,13 @@ There are few ways to get help:
 
 The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
 
+After the module is initialized, the `db` field is appended to the Sequelize module, being the Sequelize instance.
+You can access the Sequelize instance using:
+
+```js
+const seq = require("sequelize").db;
+```
+
 
 
 ## :yum: How to contribute
