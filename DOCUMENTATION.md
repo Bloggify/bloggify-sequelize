@@ -6,11 +6,11 @@ You can see below the API reference of this module.
 
 #### Params
 - **Object** `config`:
- - `db_name` (String): The database name
- - `username` (Object): The database username.
- - `password` (Object): The database password.
- - `options` (Object): The database options.
- - `models_dir` (String): The relative path to a directory containing models stored in files.
+   - `db_name` (String): The database name
+   - `username` (Object): The database username.
+   - `password` (Object): The database password.
+   - `options` (Object): The database options.
+   - `models_dir` (String): The relative path to a directory containing models stored in files.
 
 The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
 
