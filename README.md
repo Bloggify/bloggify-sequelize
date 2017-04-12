@@ -15,7 +15,7 @@ $ npm i --save bloggify-sequelize
 ## :memo: Documentation
 
 
-### bloggify:init
+### Plugin Configuration
 
 #### Params
 - **Object** `config`:
