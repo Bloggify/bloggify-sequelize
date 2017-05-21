@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 
 #### Params
 - **Object** `config`:
+   - `uri` (String): The database uri (if this is used, the other config fields will be ignored).
    - `db_name` (String): The database name
    - `username` (Object): The database username.
    - `password` (Object): The database password.
