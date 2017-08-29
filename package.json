@@ -37,6 +37,9 @@
   "homepage": "https://github.com/Bloggify/bloggify-sequelize#readme",
   "dependencies": {
     "camelo": "^1.1.7",
-    "sequelize": "^4.6.0"
+    "mysql2": "^1.4.1",
+    "require-dir": "^0.3.2",
+    "sequelize": "^4.6.0",
+    "ul": "^5.2.12"
   }
 }
