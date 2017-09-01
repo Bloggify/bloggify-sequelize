@@ -2,7 +2,7 @@
 
 You can see below the API reference of this module.
 
-### Plugin Configuration
+### bloggify:init
 
 #### Params
 - **Object** `config`:
@@ -19,6 +19,6 @@ After the module is initialized, the `db` field is appended to the Sequelize mod
 You can access the Sequelize instance using:
 
 ```js
-const seq = require("sequelize").db;
+const seq = require("sequelize").db
 ```
 

@@ -15,7 +15,7 @@ $ npm i --save bloggify-sequelize
 ## :memo: Documentation
 
 
-### Plugin Configuration
+### bloggify:init
 
 #### Params
 - **Object** `config`:
@@ -32,7 +32,7 @@ After the module is initialized, the `db` field is appended to the Sequelize mod
 You can access the Sequelize instance using:
 
 ```js
-const seq = require("sequelize").db;
+const seq = require("sequelize").db
 ```
 
 
@@ -41,6 +41,11 @@ const seq = require("sequelize").db;
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`bloggify`](https://github.com/Bloggify/Bloggify) (by Bloggify)—We make publishing easy.
 
 ## :scroll: License
 
