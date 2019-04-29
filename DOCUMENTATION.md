@@ -2,9 +2,8 @@
 
 You can see below the API reference of this module.
 
-### bloggify:init
+### Plugin Configuration
 
-#### Params
 - **Object** `config`:
    - `uri` (String): The database uri (if this is used, the other config fields will be ignored).
    - `db_name` (String): The database name
@@ -12,6 +11,7 @@ You can see below the API reference of this module.
    - `password` (Object): The database password.
    - `options` (Object): The database options.
    - `models_dir` (String): The relative path to a directory containing models stored in files.
+   - `autosync` (Boolean): Wheter to autosync the database (default: true).
 
 The model objects can be accessed by requiring the module or accessing the `Bloggify.models` object.
 
