@@ -1,5 +1,14 @@
 {
     "config": {
-        "autosync": true
+        "autosync": true,
+        "default_options": {
+            "define": {
+                "charset": "utf8mb4",
+                "underscored": true,
+                "timestamps": true,
+                "createdAt": "created_at",
+                "updatedAt": "updated_at"
+            }
+        }
     }
 }
