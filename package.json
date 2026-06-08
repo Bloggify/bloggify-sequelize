@@ -41,6 +41,7 @@
   "dependencies": {
     "camelo": "^2.0.0",
     "import-dir-dynamic": "^1.1.0",
-    "sequelize": "^6.37.8"
+    "sequelize": "^6.37.8",
+    "ul": "^7.0.0"
   }
 }
